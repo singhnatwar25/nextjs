@@ -1,7 +1,7 @@
 "use client";
 import Header from '@/components/Header/Header';
 import About from '@/components/About/about'
-import LearnUseImage from '@/components/learnUseImage'
+import LearnUseImage from '@/components/UseImage'
 
 export default function Home() {
   return (
