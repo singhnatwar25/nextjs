@@ -28,6 +28,7 @@ import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import { JSX, SVGProps } from "react"
 
 export function Service() {
   return (
@@ -290,7 +291,7 @@ export function Service() {
   )
 }
 
-function CloudIcon(props) {
+function CloudIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -310,7 +311,7 @@ function CloudIcon(props) {
 }
 
 
-function DatabaseBackupIcon(props) {
+function DatabaseBackupIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -335,7 +336,7 @@ function DatabaseBackupIcon(props) {
 }
 
 
-function DatabaseIcon(props) {
+function DatabaseIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -357,7 +358,7 @@ function DatabaseIcon(props) {
 }
 
 
-function InfoIcon(props) {
+function InfoIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -379,7 +380,7 @@ function InfoIcon(props) {
 }
 
 
-function LayersIcon(props) {
+function LayersIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -401,7 +402,7 @@ function LayersIcon(props) {
 }
 
 
-function LockIcon(props) {
+function LockIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -422,7 +423,7 @@ function LockIcon(props) {
 }
 
 
-function MenuIcon(props) {
+function MenuIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -444,7 +445,7 @@ function MenuIcon(props) {
 }
 
 
-function MountainIcon(props) {
+function MountainIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
